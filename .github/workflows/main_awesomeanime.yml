@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'Awesomeanime'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EB5D118ED0F342D28D9DC1D003E09A5C }}
+          publish-profile: ${secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EB5D118ED0F342D28D9DC1D003E09A5C }}
           package: .
